@@ -1,0 +1,47 @@
+# 가상환경
+venv/
+VocLangChain/
+lib/
+bin/
+include/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 환경 변수
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 로그 파일
+*.log
+logs/
+
+# 운영체제 생성 파일
+.DS_Store
+Thumbs.db
+
+# 개발 환경 설정
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 캐시 파일
+.pytest_cache/
+.coverage
+htmlcov/
+.streamlit/secrets.toml
+
+# 데이터 파일
+*.csv
+*.dat
+*.db
+*.sqlite
+
+# 빌드 파일
+dist/
+build/
+*.egg-info/ 
